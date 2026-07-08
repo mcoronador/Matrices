@@ -1,10 +1,16 @@
 #include<iostream>
-usimg namespace std;
+using namespace std;
 int main() {
-	cin>>n;
+	int n;
+	cin>> n;
 	for(int i=0;i<n;i++){
-		for (int j= 0 ;j<n;j++)
+		for (int j= 0 ;j<n;j++){
+			if (j>=i)
+			cout<<1 <<" ";
+			else cout <<0<<" ";
+		}
+		cout <<endl;
 	}
-	
+	return 0;
 }
 
